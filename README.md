@@ -15,6 +15,7 @@ This extension was built with the help of:
 - [Bootstrap v3](http://getbootstrap.com/)
 - [UI Bootstrap](http://angular-ui.github.io/bootstrap/) - Angular directives for Bootstrap
 - [gulp](http://gulpjs.com/)
+- [Sass](http://sass-lang.com/)
 - [x2js](https://code.google.com/p/x2js/)
 
 The source code follows the [Angular style guide](https://github.com/johnpapa/angular-styleguide) by John Pappa.
