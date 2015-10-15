@@ -6,7 +6,7 @@ Mumble Channel Viewer extension for Chrome.
 - The server must implement the [Channel Viewer Protocol](http://wiki.mumble.info/wiki/Channel_Viewer_Protocol).
 - The extension supports both JSON and XML format.
 
-You can find the [extension on the Chrome Web Store](https://chrome.google.com/webstore/detail/mumble-channel-viewer/delalapmnpndmfopplmjegencdnddfcc/related).
+You can find the [extension on the Chrome Web Store](https://chrome.google.com/webstore/detail/mumble-channel-viewer/delalapmnpndmfopplmjegencdnddfcc).
 
 ## Built with
 
