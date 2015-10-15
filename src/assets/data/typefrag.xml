@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server
+    xmlns="http://mumble.sourceforge.net/Channel_Viewer_Protocol"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://bitbucket.org/Svedrin/mumble-django/wiki/channel-viewer-protocol_murmur-1-2-3.xsd" id="203" name="TypeFrag.com" x_connecturl="" x_uptime="591290">
+    <channel description="" id="0" name="Root" parent="-1" position="0" temporary="false" links="" x_connecturl="">
+        <channel description="" id="45" name="Main Lobby" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+        <channel description="" id="46" name="Wildstar Online" parent="-1" position="0" temporary="false" links="" x_connecturl="">
+            <channel description="" id="47" name="Room 1" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="48" name="Room 2" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="49" name="Room 3" parent="-1" position="0" temporary="false" links="" x_connecturl="" /></channel>
+        <channel description="" id="5" name="ARMA" parent="-1" position="1" temporary="false" links="" x_connecturl="">
+            <channel description="" id="12" name="Room 1" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="13" name="Room 2" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="14" name="Room 3" parent="-1" position="0" temporary="false" links="" x_connecturl="" /></channel>
+        <channel description="" id="7" name="Battlefield" parent="-1" position="1" temporary="false" links="" x_connecturl="">
+            <channel description="" id="15" name="Room 1" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="16" name="Room 2" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="17" name="Room 3" parent="-1" position="0" temporary="false" links="" x_connecturl="" /></channel>
+        <channel description="" id="1" name="Call of Duty" parent="-1" position="2" temporary="false" links="" x_connecturl="">
+            <channel description="" id="18" name="Room 1" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="19" name="Room 2" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="20" name="Room 3" parent="-1" position="0" temporary="false" links="" x_connecturl="" /></channel>
+        <channel description="" id="10" name="Diablo" parent="-1" position="3" temporary="false" links="" x_connecturl="">
+            <channel description="" id="21" name="Room 1" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="22" name="Room 2" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="23" name="Room 3" parent="-1" position="0" temporary="false" links="" x_connecturl="" /></channel>
+        <channel description="" id="3" name="DOTA" parent="-1" position="4" temporary="false" links="" x_connecturl="">
+            <channel description="" id="24" name="Room 1" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="25" name="Room 2" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="26" name="Room 3" parent="-1" position="0" temporary="false" links="" x_connecturl="" /></channel>
+        <channel description="" id="6" name="Guild Wars" parent="-1" position="5" temporary="false" links="" x_connecturl="">
+            <channel description="" id="27" name="Room 1" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="28" name="Room 2" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="29" name="Room 3" parent="-1" position="0" temporary="false" links="" x_connecturl="" /></channel>
+        <channel description="" id="11" name="League of Legends" parent="-1" position="6" temporary="false" links="" x_connecturl="">
+            <channel description="" id="42" name="Room 1" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="43" name="Room 2" parent="-1" position="0" temporary="false" links="" x_connecturl="">
+                <user channel="43" deaf="false" mute="false" name="DaystarXI" selfDeaf="false" selfMute="false" session="36" suppress="false" userid="-1" address="0 0 0 0 0 0 0 0 0 0 255 255 170 153 65 40" x_addrstring="::ffff:170.153.65.40" recording="false" bytespersec="0" comment="" context="System.Runtime.Serialization.StreamingContext" identity="" idlesecs="473" onlinesecs="6427" os="Win" osversion="6.2.9200.1" prioritySpeaker="false" release="1.2.10" tcponly="false" x_texture="" version="66058" />
+                <user channel="43" deaf="false" mute="false" name="Dynamike" selfDeaf="false" selfMute="false" session="60" suppress="false" userid="-1" address="0 0 0 0 0 0 0 0 0 0 255 255 96 58 171 65" x_addrstring="::ffff:96.58.171.65" recording="false" bytespersec="0" comment="" context="System.Runtime.Serialization.StreamingContext" identity="" idlesecs="40757" onlinesecs="211780" os="Win" osversion="6.1.7601.1" prioritySpeaker="false" release="1.2.8" tcponly="false" x_texture="" version="66056" />
+            </channel>
+            <channel description="" id="44" name="Room 3" parent="-1" position="0" temporary="false" links="" x_connecturl="" /></channel>
+        <channel description="" id="2" name="Minecraft" parent="-1" position="7" temporary="false" links="" x_connecturl="">
+            <channel description="" id="39" name="Room 1" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="40" name="Room 2" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="41" name="Room 3" parent="-1" position="0" temporary="false" links="" x_connecturl="" /></channel>
+        <channel description="" id="4" name="Rift" parent="-1" position="8" temporary="false" links="" x_connecturl="">
+            <channel description="" id="36" name="Room 1" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="37" name="Room 2" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="38" name="Room 3" parent="-1" position="0" temporary="false" links="" x_connecturl="" /></channel>
+        <channel description="" id="9" name="Starcraft" parent="-1" position="9" temporary="false" links="" x_connecturl="">
+            <channel description="" id="33" name="Room 1" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="34" name="Room 2" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="35" name="Room 3" parent="-1" position="0" temporary="false" links="" x_connecturl="" /></channel>
+        <channel description="" id="8" name="World of Warcraft" parent="-1" position="10" temporary="false" links="" x_connecturl="">
+            <channel description="" id="30" name="Room 1" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="31" name="Room 2" parent="-1" position="0" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="32" name="Room 3" parent="-1" position="0" temporary="false" links="" x_connecturl="" /></channel>
+        <channel description="" id="50" name="TERA Online" parent="-1" position="16" temporary="false" links="" x_connecturl="">
+            <channel description="" id="51" name="Room 1" parent="-1" position="0" temporary="false" links="" x_connecturl="">
+                <user channel="51" deaf="false" mute="false" name="Espurr O-Pantsu (Starlight)" selfDeaf="false" selfMute="false" session="32" suppress="false" userid="-1" address="0 0 0 0 0 0 0 0 0 0 255 255 116 15 62 91" x_addrstring="::ffff:116.15.62.91" recording="false" bytespersec="0" comment="" context="System.Runtime.Serialization.StreamingContext" identity="" idlesecs="1100" onlinesecs="54484" os="Win" osversion="6.1.7601.1" prioritySpeaker="false" release="1.2.10" tcponly="false" x_texture="" version="66058" />
+                <user channel="51" deaf="false" mute="false" name="kookie" selfDeaf="false" selfMute="true" session="56" suppress="false" userid="-1" address="0 0 0 0 0 0 0 0 0 0 255 255 116 88 117 92" x_addrstring="::ffff:116.88.117.92" recording="false" bytespersec="0" comment="" context="System.Runtime.Serialization.StreamingContext" identity="" idlesecs="17333" onlinesecs="25688" os="Win" osversion="6.1.7601.1" prioritySpeaker="false" release="1.2.10" tcponly="false" x_texture="" version="66058" />
+            </channel>
+            <channel description="" id="52" name="Room 2" parent="-1" position="1" temporary="false" links="" x_connecturl="" />
+            <channel description="" id="53" name="Room 3" parent="-1" position="2" temporary="false" links="" x_connecturl="" /></channel>
+        <user channel="0" deaf="false" mute="false" name="JX" selfDeaf="false" selfMute="false" session="72" suppress="false" userid="-1" address="0 0 0 0 0 0 0 0 0 0 255 255 123 136 106 18" x_addrstring="::ffff:123.136.106.18" recording="false" bytespersec="0" comment="" context="System.Runtime.Serialization.StreamingContext" identity="" idlesecs="911" onlinesecs="913" os="Win" osversion="6.1.7601.1" prioritySpeaker="false" release="1.2.10" tcponly="false" x_texture="" version="66058" />
+    </channel>
+</server>

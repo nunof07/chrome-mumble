@@ -1,0 +1,55 @@
+#main {
+	width: 320px;
+	
+	.server {
+		.navbar-header.pull-right {
+			padding: 0 15px;
+		}
+		#channel0 {
+			max-height: 400px;
+    		overflow-y: auto;
+			margin-right: 0;
+			padding-right: 20px;
+		}
+		.channel {
+			margin: 20px;
+			margin-left: -5px;
+			
+			.channel {
+				margin: 0;
+			}
+			.channel-toggle {
+				cursor: pointer;
+				
+				.channel-caret {
+					font-size: 8px;
+					top: 0;
+				}
+			}
+			.channel-content {
+				ul {
+					margin-bottom: 0;
+					padding-left: 25px;
+				}
+				li {
+					list-style-type: none;
+				}
+			}
+			.user {
+				.user-icon {
+					font-size: 12px;
+				}
+			}
+		}
+		&.show-root .channel {
+			margin-left: 20px;
+			
+			.channel {
+				margin: 0;
+			}
+		}
+	}
+	.message {
+		margin: 20px;
+	}
+}

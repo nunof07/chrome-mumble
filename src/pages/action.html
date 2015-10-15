@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-strict-di ng-csp>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mumble Channel Viewer Background page</title>
+	<link rel="stylesheet" href="../css/vendor.min.css">
+	<link rel="stylesheet" href="../css/styles.min.css">
+</head>
+
+<body>
+	<div id="main" ng-controller="ActionController as action">
+		<mumble-server server="action.server" refresh="action.refresh()" settings="action.openSettings()" config="action.config" message="action.message"></mumble-server>
+	</div>
+	<script src="../js/vendor.min.js"></script>
+	<script src="../js/all.min.js"></script>
+</body>
+
+</html>

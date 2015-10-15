@@ -1,0 +1,15 @@
+@mixin box-shadow($shadow...) {
+	-webkit-box-shadow: $shadow; // iOS <4.3 & Android <4.1
+			box-shadow: $shadow;
+}
+@mixin gradient-vertical-three-colors($start-color: #00b3ee, $mid-color: #7a43b6, $color-stop: 50%, $end-color: #c3325f) {
+	background-image: -webkit-linear-gradient($start-color, $mid-color $color-stop, $end-color);
+	background-image: -o-linear-gradient($start-color, $mid-color $color-stop, $end-color);
+	background-image: linear-gradient($start-color, $mid-color $color-stop, $end-color);
+	background-repeat: no-repeat;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($start-color)}', endColorstr='#{ie-hex-str($end-color)}', GradientType=0); // IE9 and down, gets no color-stop at all for proper fallback
+}
+@mixin btn-shadow($color){
+	@include gradient-vertical-three-colors(lighten($color, 8%), $color, 60%, darken($color, 4%));
+	filter: none;
+}

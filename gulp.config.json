@@ -1,0 +1,30 @@
+{
+	"htmltemplates": "./src/app/**/*.html",
+	"vendorjs": [
+		"./node_modules/angular/angular.min.js",
+		"./node_modules/angular-animate/angular-animate.min.js",
+		"./node_modules/angular-animate/angular-sanitize.min.js",
+		"./node_modules/angular-recursion/angular-recursion.min.js",
+		"./src/assets/lib/ui-bootstrap/ui-bootstrap-custom-tpls-0.13.4.min.js",
+		"./src/assets/lib/x2js/xml2json.min.js"
+	],
+	"js": [
+		"./src/app/**/*module*.js",
+		"./src/app/**/*.js"
+	],
+	"vendorcss": [
+		"./src/assets/lib/bootstrap/css/bootstrap.min.css",
+		"./node_modules/angular/angular-csp.css"
+	],
+	"scss": [
+		"./src/assets/styles/styles.scss",
+		"./src/assets/styles/options.scss"
+	],
+	"copy": [
+		"./src/assets/lib/bootstrap/**/fonts/*.*",
+		"./src/assets/**/images/*.png",
+		"./src/**/pages/**/*.*",
+		"./src/manifest.json"
+	],
+	"build": "./build/"
+}

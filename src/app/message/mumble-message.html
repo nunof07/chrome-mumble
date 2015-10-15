@@ -1,0 +1,20 @@
+<div class="message alert" role="alert" ng-class="alertClass(message.type)">
+	<span class="message-icon" ng-switch="message.type">
+		<!-- info -->
+		<span class="glyphicon glyphicon-info-sign" aria-hidden="true" ng-switch-when="info"></span>
+		<span class="sr-only" ng-switch-when="info">Info:</span>
+		
+		<!-- success -->
+		<span class="glyphicon glyphicon-ok-sign" aria-hidden="true" ng-switch-when="success"></span>
+		<span class="sr-only" ng-switch-when="success">Success:</span>
+		
+		<!-- warning -->
+		<span class="glyphicon glyphicon-warning-sign" aria-hidden="true" ng-switch-when="warning"></span>
+		<span class="sr-only" ng-switch-when="warning">Warning:</span>
+		
+		<!-- error -->
+		<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true" ng-switch-when="error"></span>
+		<span class="sr-only" ng-switch-when="error">Error:</span>
+	</span>
+	<span class="message-text" ng-bind="message.text"></span>
+</div>

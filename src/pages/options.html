@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-strict-di ng-csp>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mumble Channel Viewer Options</title>
+	<link rel="stylesheet" href="../css/options.min.css">
+</head>
+
+<body>
+	<div ng-controller="OptionsController as options">
+		<form ng-submit="options.save()">
+
+			<h2>Server</h2>
+			<section>
+				<div class="form-group">
+					<label for="inputCvp">Channel Viewer Protocol URI</label>
+					<input type="url" id="inputCvp" placeholder="Channel Viewer Protocol URI" ng-model="options.config.server.cvp" />
+				</div>
+				<div class="form-group">
+					<label for="inputRefreshInterval">Refresh interval (minutes)</label>
+					<input type="number" min="1" id="inputRefreshInterval" placeholder="Refresh interval" ng-model="options.config.server.refreshInterval" />
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" ng-model="options.config.server.showUserCount" />
+						<span>Show user count?</span>
+					</label>
+				</div>
+			</section>
+
+			<h2>Channels</h2>
+			<section>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" ng-model="options.config.channel.showEmpty" />
+						<span>Show empty channels?</span>
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" ng-model="options.config.channel.showRootInfo" />
+						<span>Show root channel info?</span>
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" ng-model="options.config.channel.showUserCount" />
+						<span>Show user count?</span>
+					</label>
+				</div>
+				<div class="form-group">
+					<label for="selectChannelSort">Channel sort</label>
+					<select id="selectChannelSort" class="form-control" ng-model="options.config.channel.orderBy">
+						<option selected="selected">Default</option>
+						<option value="name">Alphabetically</option>
+					</select>
+				</div>
+			</section>
+			
+			<h2>Users</h2>
+			<section>
+				<div class="form-group">
+					<label for="selectUserSort">User sort</label>
+					<select id="selectUserSort" class="form-control" ng-model="options.config.user.orderBy">
+						<option selected="selected">Default</option>
+						<option value="name">Alphabetically</option>
+					</select>
+				</div>
+			</section>
+			
+			<button type="submit" class="btn btn-default">Save</button>
+			<button type="button" class="btn btn-default" ng-click="options.reset()">Reset to defaults</button>
+		</form>
+		<div class="alert alert-success" role="alert" ng-show="options.showSuccessMessage">
+			Settings saved!
+		</div>
+	</div>
+	<script src="../js/vendor.min.js"></script>
+	<script src="../js/all.min.js"></script>
+</body>
+
+</html>

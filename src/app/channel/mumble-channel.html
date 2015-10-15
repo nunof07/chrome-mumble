@@ -1,0 +1,19 @@
+<div id="channel{{channel.id}}" class="channel">
+	<span class="channel-toggle" ng-click="isCollapsed = !isCollapsed" ng-show="showInfo">
+		<span class="channel-caret glyphicon" aria-hidden="true" ng-class="{'glyphicon-chevron-right': isCollapsed, 'glyphicon-chevron-down': !isCollapsed}"></span>
+		<span class="channel-name" ng-bind="channel.name"></span>
+		<span class="badge" ng-bind="channel.userCount" ng-show="config.channel.showUserCount && channel.userCount"></span>
+	</span>
+	<div class="channel-content" collapse="isCollapsed">
+		<ul class="channels">
+			<li ng-repeat="child in channel.channels | emptyChannels:config.channel.showEmpty | orderBy:config.channel.orderBy track by child.id">
+				<mumble-channel channel="child" config="config" show-info="true"></mumble-channel>
+			</li>
+		</ul>
+		<ul class="users">
+			<li ng-repeat="user in channel.users | orderBy:config.user.orderBy track by user.name">
+				<mumble-user user="user"></mumble-user>
+			</li>
+		</ul>
+	</div>
+</div>

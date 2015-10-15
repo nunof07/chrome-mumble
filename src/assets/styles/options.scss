@@ -1,0 +1,20 @@
+@import "../../../node_modules/angular/angular-csp";
+
+section {
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+label {
+	display: inline-flex;
+    padding-bottom: 7px;
+    padding-top: 7px;
+	padding-right: 7px;
+}
+.ng-invalid {
+	border-color: rgb(169, 68, 66) !important;
+}
+.alert {
+	background: rgba(147, 184, 252, 0.2);
+	padding: 10px;
+	margin: 16px 0;
+}

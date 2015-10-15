@@ -1,0 +1,8 @@
+# ignore VS Code settings
+.vscode
+
+# ignore Node
+node_modules
+
+# ignore build folder
+build
